@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+     <title>Análise de crédito</title>
+
+</html>
+      <link rel="stylesheet" href="../css/styles.css">
+
+  </head>
+
+  <body>
+    <div class="box">
+      <form action="" form name="cadastro">
+        <fieldset>
+            <legend><b>Análise de crédito<b></legend>
+              <br>
+
+        <div class="inputBox">
+
+        <input type="text" name="nome" id="nome" class="inputUser" required>
+        <label for="nome" class="labelInput">Nome completo</label>
+
+        </div>
+        <br>
+
+        <div class="inputBox">
+
+          <input type="text" name="CPF" id="CPF" autocomplete="off" maxlength="14"class="inputUser" required>
+          <label for="CPF" class="labelInput">CPF</label>
+
+        </div>
+        <br>
+
+        <div class="inputBox">
+          <input type="text" name="RG" id="RG" class="inputUser" required>
+          <label for="RG" class="labelInput">RG</label>
+
+      </div>
+      <br>
+          <label for="data_nascimento">Data de nascimento</label>
+          <input type="date" name="data_nascimento" id="data_nascimento" required>
+      <br>
+      <p>Sexo:</p>
+          <input type="radio" id="feminino"name="genero" value="feminino"required>
+          <label for="feminino">Feminino</label>
+          <br>
+          <input type="radio" id="masculino"name="genero" value="masculino"required>
+          <label for="masculino">Masculino</label>
+            <br><br>
+
+      <div class="inputBox">
+        <input type="text" name="endereco" id="endereco" class="inputUser" required>
+        <label for="endereco" class="labelInput">Endereço</label>
+
+    </div>
+    <br>
+
+    <div class="inputBox">
+      <input type="text" name="valor_imovel" id="valor_imovel" class="inputUser" required>
+      <label for="valor_imovel" class="labelInput">Valor do imovel</label>
+
+    </div>
+      <br>
+      <div class="inputBox">
+        <input type="text" name="valor_financiamento" id="valor_financiamento" class="inputUser" required>
+        <label for="valor_financiamento" class="labelInput">Valor do financiamento</label>
+
+    </div>
+    <br>
+    <div class="inputBox">
+      <input type="text" name="email" id="email" class="inputUser" required>
+      <label for="email" class="labelInput">E-mail</label>
+
+  </div>
+  <br>
+      <input type="submit" name="enviar" id="submit" value="Enviar">
+      </div>
+
+      </fieldset>
+
+    </form>
+
+            <script src="index.js" charset="utf-8"></script>
+     </body>
+</html>
